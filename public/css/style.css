@@ -1,0 +1,127 @@
+
+.navbar{
+    background-color: orangered;
+    height: 3rem;
+    text-align: center;
+}
+
+.navbar-brand a:hover{
+    color: #000;
+}
+.container{
+    margin-top: 30px;
+    top: 15vh;
+    bottom: 15vh;
+    background:#D62AD0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.container p{
+    text-align: center;
+    color: #fff;
+}
+
+.container p a{
+    color: white;
+}
+
+.container p a:hover{
+    color: blue;
+}
+.form-container{
+    margin-top: 10%;
+    margin-left:-5%;
+    position: absolute;
+    top: 15vh;
+    background: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+.btn{
+    width: 25rem; 
+    background: orangered;
+}
+.window{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .form-container{
+       margin-left:1%;
+       margin-top: 50%;
+       width:91%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .btn{
+        width: 15.5rem; background: orangered;
+    }
+  } 
+@media only screen and (max-width:468px){
+
+    body{
+        position: fixed;
+        display: block;
+        width: 100%;
+
+    }
+}
+
+@media only screen and (max-width:768px){
+    body{
+        position: fixed;
+        display: block;
+        width: 100%;
+
+    }
+}
+
+
+.header{
+    background: orangered;
+    color:white;
+    height:60px;
+    padding-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .subhead{
+    margin-top:40px;
+    background: #cc2b5e;
+    color:white;
+    margin-left: 22%;
+    margin-right: 22%;
+    height:50px;
+    padding-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    align-content:center;
+  }
+  @media only screen and (max-width: 600px) {
+    .subhead {
+      height:80px;
+      margin-top:20%;
+      margin-left:5%;
+      width:90%;
+    }
+  } 
+  .dare{
+    text-align: left;
+}
+
+  @media only screen and (max-width: 600px) {
+    .dare{
+        text-align: left;
+    }
+  } 
+
+
+  

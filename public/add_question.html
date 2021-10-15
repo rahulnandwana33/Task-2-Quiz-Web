@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      input {
+        border: 1px solid black;
+        padding: 10px;
+        margin: 10px;
+      }
+    </style>
+    <form
+      action="/addQuestion"
+      method="POST"
+      class="flex flex-col justify-center items-center"
+      enctype="multipart/form-data"
+    >
+    <input type="text" name="question" id="">
+    <div>
+        <input type="file" name="option_1_image" required id="">
+        <input type="text" name="option_1_name" id="" placeholder="name">
+    </div>
+    <div>
+        <input type="file" name="option_2_image" required id="">
+        <input type="text" name="option_2_name" id="" placeholder="name">
+    </div>
+    <div>
+        <input type="file" name="option_3_image" id="">
+        <input type="text" name="option_3_name" id="" placeholder="name" value="none">
+    </div>
+    <div>
+        <input type="file" name="option_4_image" id="">
+        <input type="text" name="option_4_name" id="" placeholder="name" value="none">
+    </div>
+      <button type="submit" class="mt-10 p-5" style="border: 1px solid black">
+        ADD
+      </button>
+    </form>
+  </body>
+</html>

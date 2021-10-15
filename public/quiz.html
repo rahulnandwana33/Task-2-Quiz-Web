@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <link href="./css/styles.css" rel="stylesheet">
+  
+  <!-- <script defer src="./js/script.js"></script> -->
+  <title>Quiz App</title>
+</head>
+<body onload="loadGame()">
+<div>
+<div class="header">
+        <i class="bi bi-suit-heart"></i>
+        2021 Friendship Dare
+        <i class="bi bi-suit-heart"></i>
+       </div> 
+       <div class="subhead">
+        Play Truth and Dare With Your Friends! - <a href="#Clicked">Click here</a>
+       </div>
+  <div class="container">
+  <div style="text-align:center">
+  <span class="dot">1</span>
+  <span class="dot">2</span>
+  <span class="dot">3</span>
+  <span class="dot">4</span>
+  <span class="dot">5</span>
+  <span class="dot">6</span>
+  <span class="dot">7</span>
+  <span class="dot">8</span>
+  <span class="dot">9</span>
+  <span class="dot">10</span>
+  <span class="dot">11</span>
+  <span class="dot">12</span>
+  <span class="dot">13</span>
+  <span class="dot">14</span>
+  <span class="dot">15</span>
+  <span class="dot">16</span>
+  <span class="dot">17</span>
+  <span class="dot">18</span>
+  <span class="dot">19</span>
+  
+</div>
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid items-center justify-center">
+        <div class="grid grid-cols-2">
+          <div onclick="nextQuestion()" id="option_1" style="padding: 10px;">
+              <img width="130px" id="image_1" src="https://guess.viralsachxd.com/images/d226e9d221f1a0b93d1a70a71d531d7e.jpg" alt="">
+              <p id="image_name_1">Candle light</p>
+          </div>
+          <div onclick="nextQuestion()" id="option_2" style="padding: 10px;">
+              <img width="130px" id="image_2" src="https://guess.viralsachxd.com/images/d226e9d221f1a0b93d1a70a71d531d7e.jpg" alt="">
+              <p id="image_name_2">Candle light</p>
+          </div>
+          <div onclick="nextQuestion()" id="option_3" style="padding: 10px;">
+              <img width="130px" id="image_3" src="https://guess.viralsachxd.com/images/d226e9d221f1a0b93d1a70a71d531d7e.jpg" alt="">
+              <p id="image_name_3">Candle light</p>
+          </div>
+          <div onclick="nextQuestion()" id="option_4" style="padding: 10px;">
+              <img width="130px" id="image_4" src="https://guess.viralsachxd.com/images/d226e9d221f1a0b93d1a70a71d531d7e.jpg" alt="">
+              <p id="image_name_4">Candle light</p>
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn ">👉 Start 👈</button>
+      <button id="next-btn" class="next-btn hide">Next</button>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>
